@@ -23,3 +23,13 @@ Regression problems are those where the output variable is a continuous numerica
 On the other hand, classification problems involve predicting the categorical class or label of a given input based on the features of the input. The output of a classification algorithm is a categorical variable or a discrete set of categories. For example, a spam filter is a common example of a binary classification problem, where the goal is to predict whether an email is spam or not. In a multiclass classification problem, such as image classification, the algorithm must predict one of several possible categories for a given image.
 
 ## Unsupervised Learning
+
+Unsupervised learning is a type of machine learning where an algorithm is trained on a dataset without explicit supervision or labeled data. The goal of unsupervised learning is to uncover patterns, structures, and relationships within the data, without being told what to look for.
+
+One of the most common unsupervised learning algorithms is clustering. Clustering algorithms group similar data points together based on their features or attributes. For example, a clustering algorithm could be used to group customers with similar purchase behavior, or to group news articles with similar topics.
+
+Another example of unsupervised learning is dimensionality reduction. Dimensionality reduction algorithms reduce the number of features or attributes in a dataset, while still retaining as much information as possible. This can be useful for visualizing high-dimensional data, or for reducing the computational complexity of a machine learning model.
+
+One famous example of an unsupervised learning algorithm is the cocktail party algorithm. This algorithm is used to separate mixed audio signals into their component parts. Imagine being at a cocktail party where multiple people are talking at once. The cocktail party algorithm can be used to separate the different voices and identify what each person is saying, based on the different sound waves in the mixed audio signal.
+
+The cocktail party algorithm works by using independent component analysis (ICA), a technique that assumes that the observed signals are linear combinations of unknown source signals. By applying ICA, the cocktail party algorithm can estimate the sources and separate them from the mixed signal.
